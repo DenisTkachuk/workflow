@@ -1,0 +1,9 @@
+{% extends "MDMainBundle:Layouts:admin.html.twig" %}
+
+{% trans_default_domain "admin" %}
+
+{% block body %}
+    <h1>{{ 'article.title.create'|trans }}</h1>
+    {{ form(form) }}
+    <a href="{{ path('admin.article.list') }}">{{ 'article.action.cancel'|trans }}</a>
+{% endblock body %}

@@ -1,0 +1,10 @@
+frontend:
+    resource: "@MDMainBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+
+admin:
+    resource: "@MDMainBundle/Controller/Admin/"
+    type:     annotation
+    prefix:   /admin

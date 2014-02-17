@@ -1,0 +1,17 @@
+{% extends "::base.html.twig" %}
+
+{% block title %}{{ 'defaults.title'|trans }}{% endblock title %}
+
+{% block stylesheets %}
+    <link rel="stylesheet" href="{{ asset('/css/frontend.css') }}" />
+{% endblock stylesheets %}
+
+{% block content %}
+    {% block header %}{% endblock header %}
+    {% block body %}{% endblock body %}
+    {% block footer %}{% endblock footer %}
+{% endblock content %}
+
+{% block javascripts %}
+    <script src="{{ asset('/vendor/modernizr/modernizr.js') }}"></script>
+{% endblock javascripts %}

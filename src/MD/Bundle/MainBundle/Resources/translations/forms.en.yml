@@ -1,0 +1,5 @@
+article:
+    label:
+        title: Title
+        content: Content
+        submit: Save

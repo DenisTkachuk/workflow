@@ -1,0 +1,8 @@
+{% extends "MDMainBundle:Layouts:frontend.html.twig" %}
+
+{% block body %}
+    <h2>{{ article.title }}</h2>
+    <p>{{ article.content }}</p>
+
+    <a href="{{ path('article.list') }}">&laquo; {{ 'article.action.back'|trans }}</a>
+{% endblock body %}

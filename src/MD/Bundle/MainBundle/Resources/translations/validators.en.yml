@@ -1,0 +1,8 @@
+article:
+    title:
+        not_blank: You must enter a title
+        length:
+            max: The title cannot be longer than {{ limit }} characters
+
+    content:
+        not_blank: You must enter some contentski

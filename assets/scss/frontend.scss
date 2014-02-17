@@ -1,0 +1,9 @@
+@import "assets/vendor/normalize-scss/normalize";
+
+$body-width: 90% !default;
+
+body
+{
+    width: $body-width;
+    margin: 0 auto;
+}

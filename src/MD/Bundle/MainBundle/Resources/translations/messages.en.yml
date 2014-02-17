@@ -1,0 +1,9 @@
+defaults:
+    title: Optimising Front End Workflow
+
+article:
+    title:
+        list: Articles
+
+    action:
+        back: Back to list

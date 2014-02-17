@@ -1,0 +1,7 @@
+{% if articles %}
+    <ul class="articles">
+        {% for article in articles %}
+            {% include "MDMainBundle:Article:_article-list-item.html.twig" with {'article': article} %}
+        {% endfor %}
+    </ul>
+{% endif %}

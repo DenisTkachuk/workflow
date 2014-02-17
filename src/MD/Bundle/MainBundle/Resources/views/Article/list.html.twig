@@ -1,0 +1,6 @@
+{% extends "MDMainBundle:Layouts:frontend.html.twig" %}
+
+{% block body %}
+    <h1>{{ 'article.title.list'|trans }}</h1>
+    {% include "MDMainBundle:Article:_article-list.html.twig" with {'articles': articles} %}
+{% endblock body %}

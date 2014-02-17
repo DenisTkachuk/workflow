@@ -1,0 +1,22 @@
+<!doctype html>
+
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6 lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8 lt-ie9"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en" class="no-js"><!--<![endif]-->
+    <head>
+        <meta charset="utf-8" />
+        <title>{% block title %}{% endblock title %}</title>
+
+        <!-- Set up mobile viewport for responsive design -->
+        <meta name="viewport" content="width=device-width" />
+
+        {% block stylesheets %}{% endblock stylesheets %}
+    </head>
+    <body>
+        {% block content %}{% endblock content %}
+        {% block javascripts %}{% endblock javascripts %}
+    </body>
+</html>

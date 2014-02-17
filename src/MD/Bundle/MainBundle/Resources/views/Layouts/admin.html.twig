@@ -1,0 +1,9 @@
+{% extends "::base.html.twig" %}
+
+{% trans_default_domain "admin" %}
+
+{% block title %}{{ 'defaults.title'|trans }}{% endblock title %}
+
+{% block content %}
+    {% block body %}{% endblock body %}
+{% endblock content %}

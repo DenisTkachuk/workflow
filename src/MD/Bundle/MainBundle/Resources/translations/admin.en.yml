@@ -1,0 +1,11 @@
+defaults:
+    title: Administration
+
+article:
+    title:
+        list: All Articles
+        create: Add a New Article
+
+    action:
+        create: Add New
+        cancel: Cancel
